@@ -61,7 +61,8 @@
 	background-color: green;
 	position: absolute;
 	animation-name: cube;
-	animation-duration: 3s;
+	animation-duration: 5s;
+	left: 35%;
 	animation-iteration-count: infinite;
 }
 .animation-block1 {
@@ -70,9 +71,53 @@
 	background-color: green;
 	position: absolute;
 	top: 200px;
-	left: 60px;
+	left: 40%;
 	animation-name: cube1;
-	animation-duration: 3s;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+.animation-block2 {
+	width: 50px;
+	height: 50px;
+	background-color: green;
+	position: absolute;
+	top: 200px;
+	left: 45%;
+	animation-name: cube;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+.animation-block3 {
+	width: 50px;
+	height: 50px;
+	background-color: green;
+	position: absolute;
+	top: 200px;
+	left: 50%;
+	animation-name: cube1;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+.animation-block4 {
+	width: 50px;
+	height: 50px;
+	background-color: green;
+	position: absolute;
+	top: 200px;
+	left: 55%;
+	animation-name: cube;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+.animation-block5{
+	width: 50px;
+	height: 50px;
+	background-color: orange;
+	position: absolute;
+	left: 0;
+	top: 100px;
+	animation-name: cube5;
+	animation-duration: 5s;
 	animation-iteration-count: infinite;
 }
 @keyframes cube {
@@ -84,4 +129,17 @@
 	0%{top: 200px; background-color: yellow;}
 	50%{top: 100px; background-color: red;}
 	100%{top: 0;}
+}
+@keyframes cube5 {
+	0%{left: 0;}
+	35%{left: 35%; background-color: rgba(255, 255, 255, 0);}
+	55%{left: 55%; background-color: rgba(255, 255, 255, 0); }
+	100%{left: 100%; border: 1px solid rgba(255, 255, 255, 0); border-radius: 30px;}
+}
+.animation-block6{
+	width: 50px;
+	height: 50px;
+	background-color: black;
+	border: 1px solid red;
+	border-radius: 30px;
 }
